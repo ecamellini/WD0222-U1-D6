@@ -21,3 +21,7 @@ console.log(mediumBowl)
 // Add flour to the mix, in the same bowl
 mediumBowl = mediumBowl + flour
 console.log(mediumBowl)
+
+// We're done, we want to empty the bowl.
+mediumBowl = null
+console.log(mediumBowl)
