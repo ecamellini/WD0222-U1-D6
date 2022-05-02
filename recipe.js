@@ -1,7 +1,8 @@
 /*
 Welcome to the programming kitchen.
-An anlogy between baking cookies and programming.
+An analogy between baking cookies and programming.
 */
+console.log("Welcome to the programming kitchen!")
 
 // Let's start by declaring our ingredients.
 let sugar = 120
@@ -20,6 +21,9 @@ console.log(mediumBowl)
 
 // Add flour to the mix, in the same bowl
 mediumBowl = mediumBowl + flour
+// mediumBowl += flour // Another way to write the line above
+// Syntactic sugar -- a sweeter way to write the same thing
+
 console.log(mediumBowl)
 
 // We're done, we want to empty the bowl.
